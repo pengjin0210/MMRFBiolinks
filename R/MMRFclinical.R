@@ -173,7 +173,7 @@ MMRFGDC_GetTherapyByID<- function(listSamples,clin.mm){
 #'                              data.category = "Transcriptome Profiling",
 #'                              data.type = "Gene Expression Quantification",
 #'                              experimental.strategy = "RNA-Seq",
-#'                              workflow.type="HTSeq - FPKM")
+#'                              workflow.type="STAR - Counts")
 #'
 #'
 #'tsample<-"TRBM"
