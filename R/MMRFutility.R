@@ -33,7 +33,7 @@ MMRFGDC_ProjectSummary  <- function(){
 #' query.mm.fpkm <- GDCquery(project = "MMRF-COMMPASS",
 #'                           data.category = "Transcriptome Profiling",
 #'                           data.type = "Gene Expression Quantification",
-#'                           workflow.type="HTSeq - FPKM")
+#'                           workflow.type="STAR - Counts")
 #' summary<-MMRFGDC_QuerySummary(query.mm.fpkm)
 #' 
 #' 
