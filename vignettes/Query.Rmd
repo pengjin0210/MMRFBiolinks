@@ -213,7 +213,7 @@ Example:
 query.mm<-GDCquery(project = "MMRF-COMMPASS",
                    data.category = "Transcriptome Profiling",
                    data.type = "Gene Expression Quantification",
-                   workflow.type="HTSeq - FPKM",
+                   workflow.type=STAR - Counts",
                    sample.type="Primary Blood Derived Cancer - Peripheral Blood")
 
 
@@ -233,7 +233,7 @@ library(DT)
 query.mm<-GDCquery(project = "MMRF-COMMPASS",
                    data.category = "Transcriptome Profiling",
                    data.type = "Gene Expression Quantification",
-                   workflow.type="HTSeq - FPKM",
+                   workflow.type="STAR - Counts",
                    barcode = c("MMRF_2473","MMRF_2111",
                                 "MMRF_2362","MMRF_1824",
                                 "MMRF_1458","MRF_1361",
