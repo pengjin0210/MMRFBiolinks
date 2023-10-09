@@ -58,7 +58,7 @@ Reads the data downloaded and prepare it into an R object
 query.mm.fpkm <- GDCquery(project = "MMRF-COMMPASS",
                           data.category = "Transcriptome Profiling",
                           data.type = "Gene Expression Quantification",
-                          workflow.type="HTSeq - FPKM")
+                          workflow.type="STAR - Counts")
 
 
 GDCdownload(query.mm.fpkm, method = "api", files.per.chunk = 100)
