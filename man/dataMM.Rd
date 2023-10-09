@@ -23,7 +23,7 @@ query <- GDCquery(project = "MMRF-COMMPASS",
                   data.category = "Transcriptome Profiling",
                   data.type = "Gene Expression Quantification",
                   experimental.strategy = "RNA-Seq",
-                  workflow.type="HTSeq - FPKM",
+                  workflow.type="STAR - Counts",
                   barcode = listSamples)
 
 
