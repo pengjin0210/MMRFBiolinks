@@ -104,7 +104,7 @@ MMRF-Compass data can be retrieved from two different sources:
 query.mm <- GDCquery(project = "MMRF-COMMPASS", 
                      data.category = "Transcriptome Profiling",
                      data.type = "Gene Expression Quantification",
-                     workflow.type = "HTSeq - FPKM")
+                     workflow.type = "STAR - Counts")
 
 
 
