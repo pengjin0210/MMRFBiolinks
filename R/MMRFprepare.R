@@ -71,9 +71,8 @@ MMRFGDC_prepare <- function(query,
                                    directory,
                                    summarizedExperiment,
                                    remove.files.prepared,
-                                   add.gistic2.mut,
-                                   mut.pipeline,
-                                   mutant_variant_classification)
+                                  
+                                   )
   
   
   
