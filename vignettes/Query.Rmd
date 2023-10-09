@@ -213,7 +213,7 @@ Example:
 query.mm<-GDCquery(project = "MMRF-COMMPASS",
                    data.category = "Transcriptome Profiling",
                    data.type = "Gene Expression Quantification",
-                   workflow.type=STAR - Counts",
+                   workflow.type="STAR - Counts",
                    sample.type="Primary Blood Derived Cancer - Peripheral Blood")
 
 
